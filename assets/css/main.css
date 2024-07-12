@@ -62,6 +62,7 @@ p, .fs-md {
   width: 70%;
 }
 .section__right {
+  display: flex;
   width: 30%;
 }
 
@@ -96,6 +97,8 @@ p, .fs-md {
 .img {
   width: 100%;
   min-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .map {
@@ -106,7 +109,7 @@ p, .fs-md {
   position: relative;
   top: 20px;
   right: 5px;
-  width: 90%;
+  width: 80%;
 }
 
 .grains {
@@ -124,6 +127,22 @@ p, .fs-md {
      object-fit: cover;
   -o-object-position: 80% 0%;
      object-position: 80% 0%;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  gap: 30px;
+  right: 30%;
+  bottom: 16%;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+}
+.stats__component {
+  width: 7rem;
 }
 
 .btn--primary {

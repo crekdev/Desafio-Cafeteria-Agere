@@ -1,0 +1,16 @@
+.stats {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 1;
+  background-color: $primary-white;
+  gap: 30px;
+  right: 30%;
+  bottom: 16%;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  
+  &__component {
+    width: 7rem;
+  }
+}
