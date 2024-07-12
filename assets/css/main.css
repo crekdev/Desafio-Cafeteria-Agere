@@ -54,8 +54,11 @@ p, .fs-md {
 
 .section {
   display: flex;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .section__left {
+  display: flex;
   width: 70%;
 }
 .section__right {
@@ -86,6 +89,41 @@ p, .fs-md {
 
 .text-block {
   padding-inline: 2rem;
+  padding-block: 2rem;
+  width: 50%;
+}
+
+.img {
+  width: 100%;
+  min-height: 100%;
+}
+
+.map {
+  width: 100%;
+  background-color: #5fa5ea;
+}
+.map__img {
+  position: relative;
+  top: 20px;
+  right: 5px;
+  width: 90%;
+}
+
+.grains {
+  right: 25%;
+  bottom: -34%;
+  position: absolute;
+  z-index: 1;
+  width: 12%;
+  height: 50%;
+}
+.grains__img {
+  height: 50%;
+  width: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 80% 0%;
+     object-position: 80% 0%;
 }
 
 .btn--primary {

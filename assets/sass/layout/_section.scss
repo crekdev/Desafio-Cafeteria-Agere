@@ -1,12 +1,16 @@
 // sección inferior
 .section {
   display: flex;
+  object-fit: contain;
 
   &__left {
+    display: flex;
     width: 70%;
   }
 
   &__right {
     width: 30%;
+
   }
+
 }

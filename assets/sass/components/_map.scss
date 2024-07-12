@@ -1,0 +1,12 @@
+.map {
+  width: 100%;
+  background-color: $secondary-blue;
+
+  &__img {
+    
+    position: relative;
+    top: 20px;
+    right: 5px;
+    width: 90%;
+  }
+}
