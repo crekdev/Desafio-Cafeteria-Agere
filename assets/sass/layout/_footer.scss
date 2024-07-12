@@ -1,6 +1,7 @@
-.nav {
+.footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   margin-inline: $outer-screen-margin;
   padding-block: 2rem;
 }

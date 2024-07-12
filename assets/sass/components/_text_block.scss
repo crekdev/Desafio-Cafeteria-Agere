@@ -2,4 +2,12 @@
   padding-inline: $outer-screen-margin;
   padding-block: $outer-screen-margin;
   width: 50%;
+
+  /*&__title {
+    padding-bottom: 1rem;
+  }*/
+
+  &__description {
+    padding-block: 1rem;
+  }
 }
