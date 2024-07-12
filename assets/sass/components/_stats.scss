@@ -4,7 +4,7 @@
   position: absolute;
   z-index: 1;
   background-color: $primary-white;
-  gap: 30px;
+  gap: 15px;
   right: 20%;
   bottom: 16%;
 
@@ -12,6 +12,7 @@
     width: 8rem;
     padding-inline: 1rem;
     padding-block: 1rem;
+    margin-left: 1rem;
 
     &--arrow {
       background-color: $primary-yellow;
@@ -26,6 +27,10 @@
         height: 7rem;
       }
     }
+  }
+
+  &__description {
+    text-align: justify;
   }
 
 }

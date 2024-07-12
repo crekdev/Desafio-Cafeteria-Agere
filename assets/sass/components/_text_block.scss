@@ -1,13 +1,14 @@
 .text-block {
   padding-inline: $outer-screen-margin;
   padding-block: $outer-screen-margin;
-  width: 50%;
+  width: 80%;
 
-  /*&__title {
-    padding-bottom: 1rem;
-  }*/
+  &__title {
+    padding-inline: 2rem;
+  }
 
   &__description {
     padding-block: 1rem;
+    padding-inline: 2rem;
   }
 }

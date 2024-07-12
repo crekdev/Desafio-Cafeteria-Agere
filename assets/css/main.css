@@ -98,13 +98,14 @@ p, .fs-md {
 .text-block {
   padding-inline: 2rem;
   padding-block: 2rem;
-  width: 50%;
-  /*&__title {
-    padding-bottom: 1rem;
-  }*/
+  width: 80%;
+}
+.text-block__title {
+  padding-inline: 2rem;
 }
 .text-block__description {
   padding-block: 1rem;
+  padding-inline: 2rem;
 }
 
 .img {
@@ -121,7 +122,7 @@ p, .fs-md {
 .map__img {
   position: relative;
   top: 20px;
-  right: 5px;
+  right: 50px;
   width: 80%;
 }
 
@@ -148,7 +149,7 @@ p, .fs-md {
   position: absolute;
   z-index: 1;
   background-color: #fff;
-  gap: 30px;
+  gap: 15px;
   right: 20%;
   bottom: 16%;
 }
@@ -156,6 +157,7 @@ p, .fs-md {
   width: 8rem;
   padding-inline: 1rem;
   padding-block: 1rem;
+  margin-left: 1rem;
 }
 .stats__component--arrow {
   background-color: #eacb31;
@@ -168,6 +170,9 @@ p, .fs-md {
   right: 5px;
   width: 7rem;
   height: 7rem;
+}
+.stats__description {
+  text-align: justify;
 }
 
 .btn--primary {
